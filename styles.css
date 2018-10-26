@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 80px;
+  font-family: 'Open Sans';
+}
+
+.header {
+  background-image: url('images/code-girls-header.png');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 60px;
+  line-height: 68px;
+  color: white;
+  text-align: center;
+}
+
+.fis {
+  font-size: 100px;
+  letter-spacing: 9.5px;
+  font-family: 'Mali', cursive;
+}
+
+.main {
+  padding: 0 30px;
+}
+
+.text-container, .image-container {
+  max-width: 600px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.secondary-title {
+  font-size: 30px;
+  font-family: 'Mali', cursive;
+  font-weight: 600;
+  color: #3c3535;
+}
+
+.image {
+  max-width: 150px;
+  margin: 0 30px;
+}
+
+.class-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 0;
+}
+
+.class-list-item {
+  list-style: none;
+  width: 150px;
+  text-align: center;
+}
+
+.class-list-item a {
+  text-decoration: none;
+  color: #437efe;
+}
+
+.class-list-item a:hover {
+  color: #2cbea3;
+}
+
+.tertiary-title {
+  text-align: center;
+  margin: 40px 0;
+  font-family: 'Mali', cursive;
+  font-weight: 600;
+  color: #3c3535;
+  font-size: 25px;
+}
+
+.copy, .class-list-item {
+  color: #3e3e3e;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
